@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         allListPage.classList.remove("none");
         UnFinishPage.classList.add("none");
         finishPage.classList.add("none");
-
     } else {
         login.classList.remove("none");
         signUp.classList.add("none");
@@ -54,8 +53,8 @@ const noDataPage=document.querySelector(".noDataPage");
 const unFinishLimit=document.querySelector(".unFinishLimit");
 let data=[];
 let limit=0;
+
 function getTodoData(){
-    
     axios.get(`${apiUrl}/todos`,{})
     .then(
         res =>{
