@@ -192,6 +192,7 @@ li.active{
     border-bottom: 2px solid #000000;
 }
 .checked{
+    padding-top: 3px;
     text-decoration: line-through;
     color: #9F9A91;
     font-weight: 300;
@@ -199,6 +200,7 @@ li.active{
     margin-left: 16px;
 }
 .Uncheck{
+    padding-top: 3px;
     margin-left: 16px;
 }
 .loginBtn{
