@@ -245,6 +245,7 @@ li.active{
     margin-top: 24px;
 }
 .logoutBtn{
+    color: #333333;
     padding-top: 3px;
     background: none;
     border: none;
