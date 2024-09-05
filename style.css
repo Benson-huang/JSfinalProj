@@ -58,7 +58,13 @@ body,
 html {
     height:100%;
 }
-
+@font-face {
+    font-family: NotoSansTC;
+    src: url(./font/Noto_Sans_TC/static/NotoSansTC-Medium.ttf);
+}
+body{
+	font-family:NotoSansTC,'Times New Roman', Times, serif;
+}
 
 .none {
     display: none;
@@ -269,7 +275,7 @@ li.active{
     color: white;
     height: 40px;
     width: 40px;
-    font-size: 35px;
+    font-size: 25px;
     border: none;
     border-radius :10px;
 }
