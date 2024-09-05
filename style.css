@@ -215,6 +215,7 @@ li.active{
     margin-top: 24px;
 }
 #changeSignUp{
+    font-family: NotoSansTC, sans-serif;
     display: block;
     background: none;
     font-size: 16px;
@@ -222,6 +223,7 @@ li.active{
     margin-top: 24px;
 }
 #changeLogin{
+    font-family: NotoSansTC, sans-serif;
     display: block;
     background: none;
     font-size: 16px;
@@ -249,6 +251,7 @@ li.active{
     border: none;
     font-size: 16px;
     font-weight: 300;
+    font-family: NotoSansTC, sans-serif;
 }
 .enterBar{
     width: 500px;
@@ -432,7 +435,7 @@ a :hover{
         height: 50px;
         position:absolute;
         top: 40px;
-        background-image: url(./JSfinalProj/image/logo.png);
+        background-image: url(https://i.imgur.com/7Q4RjFx.jpg);
         background-size: contain;
     }
     .rightName{
