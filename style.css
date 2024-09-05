@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600, 700");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+	border: 1px solid black;
+}
+body,
+html {
+    height:100%;
+}
+.none {
+    display: none;
+}
+.warp{
+    margin: 0 auto;
+    background: #FFD370;
+    height: 100%;
+    color: #333333;
+}
+.login{
+    padding-top: 111px;
+    padding-bottom: 111px;
+
+}
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.loginPage h2{
+    margin-top: 62px;
+    font-size: 24px;
+}
+.loginPage p{
+    font-size: 14px;
+    margin-top: 40px;
+}
+.loginRightPage{
+    padding-left: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginPageEmail{
+    width: 304px;
+    height: 47px;
+    background:white;
+    margin-top: 5px;
+    border: none;
+    border-radius :10px;
+    text-indent: 16px;
+}
+.loginPagePassword{
+    width: 304px;
+    height: 47px;
+    background:white;
+    margin-top: 5px;
+    border: none;
+    border-radius :10px;
+    text-indent: 16px;
+}
+.signUp{
+    padding-top: 111px;
+    padding-bottom: 111px;
+}
+.signUpPage{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.signUpRightPage{
+    padding-left: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signUpRightPage h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.signUpRightPage p{
+    font-size: 14px;
+    margin-top: 16px;
+}
+.signUpEmail ,.signUpName ,.signUpPassword ,.signUpCheckPassword{
+    width: 304px;
+    height: 47px;
+    background:white;
+    margin-top: 5px;
+    border: none;
+    border-radius :10px;
+    text-indent: 16px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.rightHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+.noDataContent{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.todoList{
+    height: 100%;
+    text-align: center;
+    background-image: url(../JSfinalProj/images/bg.png);
+    background-repeat: repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden;
+}
+.pageTop{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pageTop li {
+    color: #bfbebe;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+}
+li.active{
+    display: block;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+.checked{
+    text-decoration: line-through;
+    color: #9F9A91;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+    margin-left: 16px;
+}
+.Uncheck{
+    margin-left: 16px;
+}
+.loginBtn{
+    display: block;
+    width: 128px;
+    height: 47px;
+    background: #333333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+#changeSignUp{
+    font-family: NotoSansTC, sans-serif;
+    display: block;
+    background: none;
+    font-size: 16px;
+    border: none;
+    margin-top: 24px;
+}
+#changeLogin{
+    font-family: NotoSansTC, sans-serif;
+    display: block;
+    background: none;
+    font-size: 16px;
+    border: none;
+    margin-top: 24px;
+}
+.noDataPage p{
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 16px;
+}
+.signUpBtn{
+    display: block;
+    width: 160px;
+    height: 47px;
+    background: #333333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+.logoutBtn{
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: NotoSansTC, sans-serif;
+}
+.enterBar{
+    width: 500px;
+    height: 47px;
+    background:white;
+    margin-top: 5px;
+    border: none;
+    border-radius :10px;
+    text-indent: 16px;
+    font-size: 16px;
+}
+.addBtn{
+    position:absolute;
+    top: 8px;
+    right: 4px;
+    background: #000;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    border: none;
+    border-radius :10px;
+}
+.header{
+    margin-bottom: 95px;
+}
+.enterTodoList{
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+.list{
+    width: 500px;
+    background-color: white;
+    border: none;
+    border-radius :10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 16px;
+    padding-bottom: 24px;
+}
+
+
+a :hover{
+    color: #9F9A91;
+}
+.pageTop li{
+    width: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pageFooter{
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.unFinishLimit{
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.clearAllBtn{
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #9F9A91;
+    text-decoration: none; 
+}
+
+.allListPage li{
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-left: 24px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 14px;
+    margin-right: 48px;
+    position: relative;
+}
+.allListPage a{
+    text-decoration: none; 
+    height: 16px;
+    width: 16px;
+    background-image: url(https://i.imgur.com/7Q4RjFx.jpg);
+    background-size: contain;
+    border: none;
+    border-radius :10px;
+    position:absolute;
+    top: 4px;
+    right: -30px;
+}
+.UnFinishPage li{
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-left: 24px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 14px;
+    margin-right: 48px;
+    position: relative;
+}
+.UnFinishPage a{
+    text-decoration: none; 
+    height: 16px;
+    width: 16px;
+    background-image: url(https://i.imgur.com/7Q4RjFx.jpg);
+    background-size: contain;
+    border: none;
+    border-radius :10px;
+    position:absolute;
+    top: 4px;
+    right: -30px;
+}
+.finishPage  li{
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-left: 24px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 14px;
+    margin-right: 48px;
+    position: relative;
+}
+.finishPage  a{
+    text-decoration: none; 
+    height: 16px;
+    width: 16px;
+    background-image: url(https://i.imgur.com/7Q4RjFx.jpg);
+    background-size: contain;
+    border: none;
+    border-radius :10px;
+    position:absolute;
+    top: 4px;
+    right: -30px;
+}
+
+@media (max-width:860px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .loginRightPage{
+        padding-left :5%;
+        padding-right :5%;
+    }
+    .loginRightPage h2{
+        margin: 0;
+        margin-top: 48px;
+    }
+    .signUpRightPage{
+        padding-left :5%;
+        padding-right :5%;
+    }
+    .signUpRightPage h2{
+        margin: 0;
+    }
+}
+
+@media (max-width:530px){
+    .Groupimg{
+        display: none;
+    }
+    .signUpRightPage{
+        padding :0%;
+    }
+    .login{
+        padding-top: 50px;
+    }
+    .loginRightPage{
+        padding :0%;
+        position: relative;
+    }
+    .logoImg{
+        width: 300px;
+        height: 50px;
+        position:absolute;
+        top: 40px;
+        background-image: url(../JSfinalProj/images/logo.png);
+        background-size: contain;
+    }
+    .rightName{
+        display: none;
+    }
+    .rightHeader{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .enterBar{
+        width: 311px;
+
+    }
+    .enterTodoList{
+        width: 311px;
+        margin: auto;
+        padding: 0%;
+    }
+    .todoListPage{
+        margin: auto;
+        width: 311px;
+    }
+    .list{
+        width: 311px;
+    }
+    .pageTop{
+        width: 311px;
+    }
+    .pageFooter{
+        display: flex;
+        justify-content: space-around;
+        width: 311px;
+        margin: 0%;
+        margin-top: 24px;
+    }
+}
