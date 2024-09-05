@@ -51,10 +51,6 @@ body,
 html {
     height:100%;
 }
-body {
-    font-family: 'NotoSansTC', sans-serif; 
-}
-
 .none {
     display: none;
 }
@@ -431,7 +427,7 @@ a :hover{
         height: 50px;
         position:absolute;
         top: 40px;
-        background-image: url(../JSfinalProj/images/logo.png);
+        background-image: url(https://i.imgur.com/a/ShbIs4k);
         background-size: contain;
     }
     .rightName{
