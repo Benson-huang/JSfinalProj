@@ -163,7 +163,7 @@ body {
 .todoList{
     height: 100%;
     text-align: center;
-    background-image: url(/Users/bensonhuang/Documents/GitHub/JSfinalProj/image/bg.png);
+    background-image: url(./image/bg.png);
     background-repeat: repeat; 
     background-size: cover; 
     background-position: center; 
@@ -435,7 +435,7 @@ a :hover{
         height: 50px;
         position:absolute;
         top: 40px;
-        background-image: url(/Users/bensonhuang/Documents/GitHub/JSfinalProj/image/logo.png);
+        background-image: url(https://i.imgur.com/a/ShbIs4k);
         background-size: contain;
     }
     .rightName{
