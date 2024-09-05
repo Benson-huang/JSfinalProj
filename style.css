@@ -276,6 +276,7 @@ li.active{
     font-size: 25px;
     border: none;
     border-radius :10px;
+    text-align: center;
 }
 .header{
     margin-bottom: 95px;
