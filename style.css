@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600, 700");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,12 +51,6 @@ body,
 html {
     height:100%;
 }
-@font-face {
-    font-family: 'NotoSansTC';
-    src: url('./JSfinalProj/font/Noto_Sans_TC/static/NotoSansTC-Medium.ttf') format('truetype');
-}
-@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
-@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600, 700");
 body {
     font-family: 'NotoSansTC', sans-serif; 
 }
