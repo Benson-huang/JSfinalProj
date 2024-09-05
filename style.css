@@ -433,7 +433,7 @@ a :hover{
         height: 50px;
         position:absolute;
         top: 40px;
-        background-image: url(../image/logo.png);
+        background-image: url(./image/logo.png);
         background-size: contain;
     }
     .rightName{
