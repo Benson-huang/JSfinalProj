@@ -425,7 +425,7 @@ a :hover{
         color: white;
         height: 40px;
         width: 40px;
-        font-size: 15px;
+        font-size: 18px;
         border: none;
         border-radius :10px;
         text-align: center;
@@ -494,7 +494,7 @@ a :hover{
         width: 30px;
         font-size: 10px;
         border: none;
-        border-radius :10px;
+        border-radius :16px;
         text-align: center;
     }
 }
