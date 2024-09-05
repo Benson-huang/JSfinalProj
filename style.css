@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
-@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600, 700");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +49,14 @@ body,
 html {
     height:100%;
 }
+@font-face {
+    font-family: 'NotoSansTC';
+    src: url(./font/Noto_Sans_TC/static/NotoSansTC-Medium.ttf) format('truetype');
+}
+body {
+    font-family: 'NotoSansTC', sans-serif; 
+}
+
 .none {
     display: none;
 }
@@ -155,7 +161,7 @@ html {
 .todoList{
     height: 100%;
     text-align: center;
-    background-image: url(../JSfinalProj/images/bg.png);
+    background-image: url(./image/bg.png);
     background-repeat: repeat; 
     background-size: cover; 
     background-position: center; 
@@ -207,7 +213,6 @@ li.active{
     margin-top: 24px;
 }
 #changeSignUp{
-    font-family: NotoSansTC, sans-serif;
     display: block;
     background: none;
     font-size: 16px;
@@ -215,7 +220,6 @@ li.active{
     margin-top: 24px;
 }
 #changeLogin{
-    font-family: NotoSansTC, sans-serif;
     display: block;
     background: none;
     font-size: 16px;
@@ -243,7 +247,6 @@ li.active{
     border: none;
     font-size: 16px;
     font-weight: 300;
-    font-family: NotoSansTC, sans-serif;
 }
 .enterBar{
     width: 500px;
@@ -331,7 +334,7 @@ a :hover{
     text-decoration: none; 
     height: 16px;
     width: 16px;
-    background-image: url(https://i.imgur.com/7Q4RjFx.jpg);
+    background-image: url(./image/7Q4RjFx.jpeg);
     background-size: contain;
     border: none;
     border-radius :10px;
@@ -354,7 +357,7 @@ a :hover{
     text-decoration: none; 
     height: 16px;
     width: 16px;
-    background-image: url(https://i.imgur.com/7Q4RjFx.jpg);
+    background-image: url(./image/7Q4RjFx.jpeg);
     background-size: contain;
     border: none;
     border-radius :10px;
@@ -377,7 +380,7 @@ a :hover{
     text-decoration: none; 
     height: 16px;
     width: 16px;
-    background-image: url(https://i.imgur.com/7Q4RjFx.jpg);
+    background-image: url(./image/7Q4RjFx.jpeg);
     background-size: contain;
     border: none;
     border-radius :10px;
@@ -427,7 +430,7 @@ a :hover{
         height: 50px;
         position:absolute;
         top: 40px;
-        background-image: url(../JSfinalProj/images/logo.png);
+        background-image: url(./image/logo.png);
         background-size: contain;
     }
     .rightName{
