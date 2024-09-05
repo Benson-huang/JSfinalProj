@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="warp">
+        <!--登入頁面--> 
+        <div class="login none"  >
+            <div class="loginPage">
+                <div class="logoImg"></div>
+                <div class="bgImage">
+                    <img class="Groupimg" src="./image/Group.png" alt="">
+                </div>
+                <div class="loginRightPage">
+                    <form >
+                        <h2>最實用的線上待辦事項服務</h2>
+                        <p>Email</p>
+                        <input type="text" class="loginPageEmail" placeholder="請輸入Email">
+                        <p>密碼</p>
+                        <input type="password" class="loginPagePassword" placeholder="請輸入密碼">
+                    </form>
+                    <input type="button" class="loginBtn" value="登入">    
+                    <button id="changeSignUp">註冊帳號</button>
+                </div>
+            </div>
+        </div>
+        <!--註冊頁面--> 
+        <div class="signUp none" >
+            <div class="signUpPage">
+                <div class="bgImage">
+                    <div class="logoImg"></div>
+                    <img class="Groupimg" src="./image/Group.png" alt="">
+                </div>
+                <div class="signUpRightPage">
+                    <form >
+                        <h2>註冊帳號</h2>
+                        <p>Email</p>
+                        <input type="text" class="signUpEmail" placeholder="請輸入Email">
+                        <p>您的暱稱</p>
+                        <input type="text" class="signUpName" placeholder="請輸入您的暱稱">
+                        <p>密碼</p>
+                        <input type="password" class="signUpPassword" placeholder="請輸入密碼">
+                        <p>再次確認密碼</p>
+                        <input type="password" class="signUpCheckPassword" placeholder="請再次輸入密碼">
+                    </form>
+                    <input type="button" class="signUpBtn" value="註冊帳號">
+                    <button id="changeLogin">登入</button>
+                </div>
+            </div>
+        </div>
+        <!--代辦事項頁面-->
+        <div class="todoList">
+            <div class="header">
+                <div class="leftLogo"><img src="/image/logo.png" alt=""></div>
+                <div class="rightHeader">
+                    <p class="rightName">XXX的代辦</p>
+                    <input type="button" class="logoutBtn" value="登出">
+                </div>
+            </div>
+            <div class="enterTodoList">
+                <input type="text" class="enterBar" placeholder="新增待辦事項">
+                <button class="addBtn">+</button>
+            </div>
+            <!--沒資料-->
+            <div class="noDataPage none">
+                <p>目前尚無代辦事項</p>
+                <div class="bgImage">
+                    <img src="./image/empty 1.png" alt="">
+                </div>
+            </div>
+            <!--有資料-->
+            <div class="todoListPage">
+                <div class="list">
+                    <ul class="pageTop">
+                        <li class="allList">全部</li>
+                        <li class="UnFinish">待完成</li>
+                        <li class="finish">已完成</li>
+                    </ul>
+                    <ul class="allListPage none"><!--全部-->
+                    </ul>
+                    <ul class="UnFinishPage none"><!--待完成-->
+                    </ul>
+                    <ul class="finishPage none"><!--已完成-->
+                    </ul>
+                    <div class="pageFooter">
+                        <label class="unFinishLimit">個待完成項目</label>
+                        <a class="clearAllBtn" href="#">清除已完成項目</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+</body>
+</html>
